@@ -295,6 +295,14 @@ module.exports = function (grunt) {
       done();
     });
   });
+  module.exports = function(grunt) {
+      grunt.loadNpmTasks('grunt-contrib-jshint');
+      grunt.initConfig({
+          jshint: {
+              all: ['Gruntfile.js']
+          }
+      });
+  }
 
   // Lint CSS and JavaScript files.
   grunt.registerTask('lint', ['sass', 'less', 'jshint', 'eslint', 'csslint']);
