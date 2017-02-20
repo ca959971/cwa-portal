@@ -8,7 +8,7 @@ basic instructions on how to manage and modify features in the portal.
 
 In a very high level, this application has three primary modules: Datasets, Toolkits, and Users.
 
-### Users
+### Users 
 
 Users is a pre-defined module
 by MEAN.JS so you don't need to do a lot of changing to make sure that it is running smoothly. It is worth to mention user permissions
@@ -185,7 +185,7 @@ Before you begin we recommend you read about the basic building blocks that asse
 ### Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 * Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager. If you encounter any problems, you can also use this [GitHub Gist](https://gist.github.com/isaacs/579814) to install Node.js.
-  * Node v5 IS NOT SUPPORTED AT THIS TIME! 
+  * Node v5 IS NOT SUPPORTED AT THIS TIME!
 * MongoDB - [Download & Install MongoDB](http://www.mongodb.org/downloads), and make sure it's running on the default port (27017).
 * Ruby - [Download & Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 * Bower - You're going to use the [Bower Package Manager](http://bower.io/) to manage your front-end packages. Make sure you've installed Node.js and npm first, then install bower globally using npm:
@@ -303,7 +303,7 @@ or
 $ gulp default
 ```
 
-The server is now running on http://localhost:3000 if you are using the default settings. 
+The server is now running on http://localhost:3000 if you are using the default settings.
 
 ### Running Gulp Development Environment
 
@@ -389,7 +389,7 @@ for hosting applications in the cloud.  After you have an account follow the bel
 * Deploy MEANJS to Cloud Foundry
   * `$ cf push`
 
-After `cf push` completes you will see the URL to your running MEANJS application 
+After `cf push` completes you will see the URL to your running MEANJS application
 (your URL will be different).
 
     requested state: started
@@ -409,4 +409,3 @@ After the deployment is finished you will be left with a copy of the MEANJS code
 in Bluemix complete with a pre-configured build and deploy pipeline.  Just clone the Git repo, make your changes, and
 commit them back.  Once your changes are committed, the build and deploy pipeline will run automatically deploying
 your changes to Bluemix.
-
